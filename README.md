@@ -1,10 +1,10 @@
 # Bhavana Saksena Angadi — Portfolio
 
-Personal portfolio website showcasing software development, Python, Flask, REST API, relational database, and LLM projects.
+Personal portfolio website showcasing Java and Spring Boot development, REST APIs, relational databases, Python, data, and LLM projects.
 
 ## Featured Projects
 
-- Happy Tails Pet Care — full-stack Flask pet-care platform
+- Happy Tails Pet Care — Java 17 + Spring Boot pet-care platform with REST APIs and Spring Data JPA
 - LLM Text Chunking — preprocessing and chunking for LLM prompts
 - Prompt Chain Extraction — chained extraction with FLAN-T5
 - Python REST API Client — JSONPlaceholder API integration
