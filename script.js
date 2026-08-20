@@ -1,3 +1,11 @@
+const currentUrl = new URL(window.location.href);
+if (currentUrl.searchParams.has('utm_source')) {
+  currentUrl.searchParams.delete('utm_source');
+  const cleanQuery = currentUrl.searchParams.toString();
+  const cleanUrl = `${currentUrl.pathname}${cleanQuery ? `?${cleanQuery}` : ''}${currentUrl.hash}`;
+  window.history.replaceState({}, document.title, cleanUrl);
+}
+
 const menuBtn = document.getElementById('menuBtn');
 const nav = document.getElementById('nav');
 const year = document.getElementById('year');
